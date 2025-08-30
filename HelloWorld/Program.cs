@@ -163,7 +163,8 @@ namespace HelloWorld
 
 
 
-            try {
+            try
+            {
                 int[] myNumbers = { 1, 2, 3 };
                 Console.WriteLine(myNumbers[10]);
             }
@@ -181,7 +182,8 @@ namespace HelloWorld
             {
                 int[] number = { 1, 2, 3 };
                 Console.WriteLine(number[4]);
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
@@ -210,7 +212,7 @@ namespace HelloWorld
 
     }
 
-    class Car: Vehicle
+    class Car : Vehicle
     {
         public Car(String color)
         {
@@ -245,7 +247,7 @@ namespace HelloWorld
     }
 
 
-    enum Level { low, med, high}
+    enum Level { low, med, high }
 
 }
 
